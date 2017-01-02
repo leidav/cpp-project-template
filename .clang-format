@@ -4,3 +4,5 @@ BreakBeforeBraces: Linux
 IndentWidth: 4
 TabWidth: 4
 UseTab: ForIndentation #Always
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
