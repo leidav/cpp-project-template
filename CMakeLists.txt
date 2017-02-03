@@ -4,7 +4,8 @@ endif()
 
 cmake_minimum_required (VERSION 3.7)
 
-project (project_name)
+set (PROJECT_NAME project_name)
+project (${PROJECT_NAME})
 
 if(NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the build type, 
