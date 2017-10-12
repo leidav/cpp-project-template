@@ -25,3 +25,8 @@ endif()
 include_directories(${CMAKE_SOURCE_DIR}/src)
 
 add_subdirectory(src)
+
+option(WITH_GUI "With Graphical User Interface" true)
+if(WITH_GUI)
+	add_subdirectory(src/gui)
+endif()
