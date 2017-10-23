@@ -12,14 +12,9 @@
  *	You should have received a copy of the GNU General Public License
  *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#include "lib.h"
 
-#include <stdio.h>
-//#include "library/lib.h"
-#include "library/lib.h"
-
-int main()
+int func()
 {
-	func();
-	printf("Hello World!\n");
 	return 0;
 }
