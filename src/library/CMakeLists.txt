@@ -1,2 +1,3 @@
 add_library(library lib.cpp)
-add_public_sources(library lib.h)
+target_sources(library PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/lib.h")
+target_include_directories(library PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")

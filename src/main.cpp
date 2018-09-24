@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 //#include "library/lib.h"
-#include "library/lib.h"
+#include <lib.h>
 
 int main()
 {
