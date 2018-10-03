@@ -1,7 +1,6 @@
 cmake_minimum_required (VERSION 3.8)
 
-set (PROJECT_NAME project_name)
-project (${PROJECT_NAME})
+project (project_name)
 
 if(NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the build type" FORCE)
